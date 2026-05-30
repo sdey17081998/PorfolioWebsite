@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  @apply transition-colors duration-300;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.gradient-text {
+  @apply bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent;
+}
